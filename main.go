@@ -30,6 +30,5 @@ func main() {
 	r := gin.Default()
 	r.GET("/tasks", tasksHandler)
 	r.POST("/tasks", tasksHandler)
-	s
 	r.Run(":8080")
 }
